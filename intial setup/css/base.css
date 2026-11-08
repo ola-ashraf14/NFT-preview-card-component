@@ -1,0 +1,32 @@
+/* general tags */
+:root{
+     --blue-500: hsl(215, 51%, 70%);
+     --Cyan-400: hsl(178, 100%, 50%);
+
+     --blue-950:hsl(217,54%, 11%);
+     --blue-900: hsl(216, 50%, 16%);
+     --blue-8b :hsl(215, 32%, 27%);
+     --White: hsl(0, 0%, 100%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--blue-950);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blue-500);
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    
+
+}
+img{
+    width: 100%;
+    display: block;
+}
