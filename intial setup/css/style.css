@@ -14,6 +14,34 @@
     overflow: hidden;
     
 }
+.card-header{
+    position: relative;
+
+    
+    
+}
+.card-header:hover .header-overlay{
+    opacity: .5;
+    /* transform: rotate(360deg) scale(1); */
+}
+.header-overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom:0 ;
+    background-color: var(--Cyan-400);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 1s ;
+    opacity: .0;
+}
+.header-overlay .icon-view{
+    width: auto;
+    
+}
 
 /* BODY */
 .card-body{
